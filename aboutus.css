@@ -1,0 +1,349 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+/* body  */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* body  */
+
+
+/* var color */
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --golden: #ffbf00;
+    ;
+}
+
+/* var color */
+
+/* navbar  */
+.navbar-expand-lg {
+    width: 100%;
+    z-index: 999;
+    background-color: var(--blue);
+    position: static;
+    top: 0;
+
+}
+
+
+
+.navbar-brand>span {
+    color: #ffbf00;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.bgcolor {
+    background-color: var(--blue);
+    color: black;
+    border-bottom: 1px solid black;
+    transition: 0.5s ease-in;
+}
+
+.bgcolor a {
+    color: rgb(35, 210, 85);
+}
+
+.dropdown-item:hover {
+    color: var(--blue);
+}
+
+/* .navbar-expand-lg a {
+    color: white;
+} */
+.nav-link {
+    color: white;
+}
+
+.navbar-expand-lg a:hover {
+    color: var(--golden);
+}
+
+a.navbar-brand {
+    margin-right: 77px;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+/* navbar  */
+
+
+
+
+/* section 0  */
+.section0 {
+    margin-top: 50px;
+}
+
+.section0>.container {
+    border: 2px solid var(--blue);
+    border-radius: 30px;
+    padding: 40px;
+    background-color: var(--blue);
+}
+
+.section0 h1 {
+    color: wheat;
+
+
+}
+
+/* section 0  */
+
+
+
+
+
+
+/* section1  */
+.section1 {
+    margin-top: 50px;
+}
+
+
+.center-icons {
+
+    width: 62px;
+    height: 62px;
+    position: relative;
+    background: var(--blue);
+    border-radius: 30%;
+    display: flex;
+    margin-right: 17px;
+}
+
+
+.center-div {
+    padding: 10px;
+    border-bottom: 1px solid var(--blue);
+    display: flex;
+    align-items: center;
+}
+
+
+
+.popular-h1 span {
+    color: var(--blue);
+}
+
+.popular-h1 h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.popular-h1 p {
+    text-align: center;
+}
+
+
+
+
+.center-div h5 {
+    font-size: 15px;
+}
+
+.center-icons img {
+    width: 40px;
+    position: absolute;
+    top: 18%;
+    left: 19%;
+}
+
+/* section1  */
+.aboutus {
+    color: wheat;
+}
+
+.aboutus span {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+/* =============section 2 ============ */
+
+/*============================== client review ========================== */
+.section2 {
+    margin: 100px 0;
+}
+
+
+.section2>.container {
+    /* background: url("about us icons/abouus\ client\ review.png") no-repeat center center/cover; */
+    background: #e8dede;
+    border-radius: 20px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+@media screen and (max-width: 480px) {
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+    }
+}
+
+.fa-star:before {
+    content: "\f005";
+    color: var(--golden);
+}
+
+.fa-quote-left-alt:before,
+.fa-quote-left:before {
+    content: "\f10d";
+    color: var(--blue);
+}
+
+.item p {
+    text-align: center;
+}
+
+.item>p {
+    margin: 30px 0;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: var(--blue) !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--blue) !important;
+}
+
+button.owl-next {
+    color: var(--blue);
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background-color: var(--blue) !important;
+    transform: 0.5s ease;
+}
+
+
+
+
+/*============================== client review ========================== */
+
+/* =============section 2 ============ */
+/* =============section 3 ============ */
+.background {
+    background-color: black;
+    color: white;
+    padding: 40px 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-email {
+    border: 1px solid white;
+    display: flex;
+    padding: 7px 10px;
+    background-color: white;
+
+}
+
+
+.input-email>input[type="email"] {
+    outline: none;
+    width: 289px;
+    min-width: 100px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black !important;
+}
+
+input[type="email"]::placeholder {
+    font-size: 17px;
+    font-weight: 500;
+    color: black !important;
+}
+
+button.btn.btn-primary {
+    padding: 9px 29px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 707px) {
+    .input-email {
+        flex-direction: column;
+    }
+
+    .background h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* =============section 3 ============ */
+
+
+/* footer  */
+
+
+footer.bg-dark.text-center.text-white {
+    margin-top: 87px;
+    background-color: var(--blue) !important;
+}
+
+.text-center.p-3 {
+    background-color: black !important;
+}
+
+
+
+/* footer  */
